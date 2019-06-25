@@ -12,6 +12,7 @@
     clear: both;
     background-color: #ffffff;
     margin-top: 40px;
+
 }
 
 #contact-info
@@ -20,6 +21,7 @@
     width: 25%;
     line-height: 1.5;
     margin-top: 40px;
+
 }
 
 #bio-image
@@ -34,8 +36,9 @@ body
     background-color:#efeee7;
     color:#333333;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
 }
 
 header
@@ -99,4 +102,117 @@ p
 .container
 {
     background-color: blue;
+}
+
+@media (max-width: 1024px) {
+
+    #contact-info {
+        clear: both;
+        width: 30%;
+        margin-left: 40px;
+    }
+
+    #main-bio {
+        width: 920px;
+    }
+
+    #bio-image {
+        height: 5%;
+    }
+
+    .container {
+        padding-right: 50%;
+    }
+}
+
+@media (max-width: 411px) {
+
+    header {
+        width: 35%;
+        
+    }
+
+    #header2 {
+        width: 65%;
+    }
+
+    #container {
+        width: 100%;
+        float: center;
+    }
+
+    p {
+        clear: both;
+    }
+
+    #bio-image {
+        float: center;
+        width: 80%;
+    }
+}
+
+
+@media (max-width: 375px) {
+    header {
+        height: 110px;
+        width:  35%;
+
+    }
+
+
+    #header2 {
+        width: 65%;
+        
+        
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+
+    #contact-info {
+        clear: both;
+        width: 375px;
+        margin-left: 5%;
+        margin-bottom: 100px;
+
+    }
+
+    #main-bio {
+
+        float: center;
+        width: 95%;
+
+    }
+
+    #bio-image {
+        float: center;
+        width: 88%;
+    }
+
+    p {
+        margin: 5%;
+    }
+
+    #divider {
+        width: 88%;
+    }
+
+    .container {
+        padding-right: 5%;
+        padding-left: 8%;
+    }
+}
+
+@media (max-width: 360px) {
+    
+    .container {
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+
+    #header2 {
+        
+    }
 }
